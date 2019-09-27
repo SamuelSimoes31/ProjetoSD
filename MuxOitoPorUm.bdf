@@ -150,7 +150,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 600 192 616 360)
+	(rect 592 104 608 272)
 	(text "INPUT" (rect 6 133 16 161)(font "Arial" (font_size 6))(vertical))
 	(text "S0" (rect 4 5 16 17)(font "Arial" )(vertical))
 	(pt 8 168)
@@ -167,7 +167,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 624 192 640 360)
+	(rect 624 104 640 272)
 	(text "INPUT" (rect 6 133 16 161)(font "Arial" (font_size 6))(vertical))
 	(text "S1" (rect 4 5 16 17)(font "Arial" )(vertical))
 	(pt 8 168)
@@ -184,7 +184,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 648 192 664 360)
+	(rect 656 104 672 272)
 	(text "INPUT" (rect 6 133 16 161)(font "Arial" (font_size 6))(vertical))
 	(text "S2" (rect 4 5 16 17)(font "Arial" )(vertical))
 	(pt 8 168)
@@ -1089,10 +1089,6 @@ applicable agreement for further details.
 	(pt 608 376)
 )
 (connector
-	(pt 696 408)
-	(pt 632 408)
-)
-(connector
 	(pt 696 440)
 	(pt 656 440)
 )
@@ -1333,36 +1329,12 @@ applicable agreement for further details.
 	(pt 1312 728)
 )
 (connector
-	(pt 608 360)
-	(pt 608 376)
-)
-(connector
-	(pt 608 376)
-	(pt 608 472)
-)
-(connector
-	(pt 656 360)
-	(pt 656 440)
-)
-(connector
-	(pt 632 360)
-	(pt 632 408)
-)
-(connector
-	(pt 632 408)
-	(pt 632 504)
-)
-(connector
 	(pt 632 504)
 	(pt 632 600)
 )
 (connector
 	(pt 632 600)
 	(pt 632 688)
-)
-(connector
-	(pt 656 440)
-	(pt 656 536)
 )
 (connector
 	(pt 656 536)
@@ -1428,11 +1400,52 @@ applicable agreement for further details.
 	(pt 632 976)
 	(pt 632 1072)
 )
-(junction (pt 608 376))
-(junction (pt 632 408))
+(connector
+	(pt 608 288)
+	(pt 608 376)
+)
+(connector
+	(pt 608 376)
+	(pt 608 472)
+)
+(connector
+	(pt 656 280)
+	(pt 656 440)
+)
+(connector
+	(pt 656 440)
+	(pt 656 536)
+)
+(connector
+	(pt 632 408)
+	(pt 696 408)
+)
+(connector
+	(pt 632 272)
+	(pt 632 408)
+)
+(connector
+	(pt 632 408)
+	(pt 632 504)
+)
+(connector
+	(pt 600 280)
+	(pt 600 272)
+)
+(connector
+	(pt 656 280)
+	(pt 600 280)
+)
+(connector
+	(pt 664 288)
+	(pt 664 272)
+)
+(connector
+	(pt 608 288)
+	(pt 664 288)
+)
 (junction (pt 608 472))
 (junction (pt 608 568))
-(junction (pt 656 440))
 (junction (pt 656 536))
 (junction (pt 632 504))
 (junction (pt 632 600))
@@ -1449,3 +1462,6 @@ applicable agreement for further details.
 (junction (pt 608 944))
 (junction (pt 632 880))
 (junction (pt 632 976))
+(junction (pt 608 376))
+(junction (pt 656 440))
+(junction (pt 632 408))
